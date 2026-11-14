@@ -9,7 +9,7 @@
 > **강사:** &nbsp;&nbsp;&emsp; 김규래  
 > **기간:** &nbsp;&nbsp;&emsp; 2026/11/14 - 2026/12/13  
 > **시간:** &nbsp;&nbsp;&emsp; 토/일 13:00 - 17:30  
-> **장소:** &nbsp;&nbsp;&emsp; 경기도 성남시 분당구 대왕판교로606번길 47 2층, 한컴 AX LAB (H 강의장)  
+> **장소:** &nbsp;&nbsp;&emsp; 경기도 성남시 분당구 대왕판교로606번길 47 2층, 한컴 AX LAB (M 강의장)  
 > **연락처:** &nbsp;&ensp; kkr.kyurae.kim<!---->@gmail.com
 
 <br>
