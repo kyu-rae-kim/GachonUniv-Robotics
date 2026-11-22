@@ -15,8 +15,8 @@ class AddTwoIntsClient(Node):
         self.req = AddTwoInts.Request()
 
     def send_request(self, a, b):
-        self.req.a.num = int(a)
-        self.req.b.num = int(b)
+        self.req.a.my_num = int(a)
+        self.req.b.my_num = int(b)
         
         self.future = self.cli.call_async(self.req)
         rclpy.spin_until_future_complete(self, self.future)
@@ -28,7 +28,7 @@ def main():
     rclpy.init()
     client = AddTwoIntsClient()
     response = client.send_request(sys.argv[1], sys.argv[2])
-    client.get_logger().info(f'Sum: {response.sum.num}')
+    client.get_logger().info(f'Sum: {response.sum.my_num}')
     client.destroy_node()
     rclpy.shutdown()
 
